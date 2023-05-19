@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full font-bold text-2xl justify-center bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 border-b border-gray-300 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 lg:static lg:w-auto  lg:rounded-xl lg:border lg:p-4">
+        <p className="fixed left-0 top-0 flex w-full font-bold text-2xl justify-center bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-transparent bg-clip-text border-b border-gray-300 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 lg:static lg:w-auto  lg:rounded-xl lg:border lg:p-4">
           FaFa Runner
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
