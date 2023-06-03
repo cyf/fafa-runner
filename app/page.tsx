@@ -23,8 +23,11 @@ function Overlay() {
       <div className="game-name" style={{ bottom: 40, right: 40, backgroundImage: 'linear-gradient(to right, pink, blue)' }}>
         Runner
       </div>
-      <div style={{ position: 'absolute', top: 40, right: 40, fontSize: '15px', textAlign: 'right', fontVariantNumeric: 'tabular-nums' }}>
-        08/01/23
+      <div style={{ position: 'absolute', top: 40, right: 40, fontSize: '20px', display: 'inline-block' }}>
+        <a style={{ fontWeight: 800, letterSpacing: 4 }}  href="https://insider.chenyifaer.com" target="_blank">
+          JOIN INSIDER
+        </a>
+        <div style={{ marginTop: 6, height: 2.5, width: '100%', background: '#3e3e3d' }} />
       </div>
       <div style={{ position: 'absolute', bottom: 120, left: 120, fontSize: '18px' }}>
         <div style={{ position: 'relative', marginTop: 10, display: 'inline-block' }}>
@@ -40,7 +43,7 @@ function Overlay() {
 }
 
 function Background() {
-  const { debug } = useControls({ debug: false })
+  // const { debug } = useControls({ debug: false })
   return (
     <Canvas shadows camera={{ position: [-50, -25, 150], fov: 15 }}>
       <Suspense fallback={null}>
@@ -51,7 +54,7 @@ function Background() {
         <Cloud scale={1} position={[-20, 10, 0]} />
         <Environment preset="city" />
         <Sky />
-        <Physics colliders={false} debug={debug}>
+        <Physics colliders={false}>
           <group position={[2, 3, 0]}>
             <Track position={[-3, 0, 10.5]} rotation={[0, -0.4, 0]} />
             <Sphere position={[-12, 13, 0]} />
