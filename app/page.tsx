@@ -17,10 +17,10 @@ export default function Home() {
 function Overlay() {
   return (
     <>
-      <div className="game-name" style={{ top: 40, left: 40, backgroundImage: 'linear-gradient(to right, blue, pink)' }}>
+      <div className="game-name" style={{ top: 40, left: 40, color: 'rgb(36, 54, 110)' }}>
         FaFa
       </div>
-      <div className="game-name" style={{ bottom: 40, right: 40, backgroundImage: 'linear-gradient(to right, pink, blue)' }}>
+      <div className="game-name" style={{ bottom: 40, right: 40, color: 'rgb(36, 54, 110)' }}>
         Runner
       </div>
       <div style={{ position: 'absolute', top: 40, right: 40, fontSize: '20px', display: 'inline-block' }}>
