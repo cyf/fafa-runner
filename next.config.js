@@ -13,7 +13,7 @@ const withMDX = require('@next/mdx')({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/fafa-runner',
+  // basePath: '/fafa-runner',
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
   output: 'export',
   reactStrictMode: true,
