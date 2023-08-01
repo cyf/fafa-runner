@@ -24,7 +24,7 @@ function Overlay() {
         Runner
       </div>
       <div style={{ position: 'absolute', top: 40, right: 40, fontSize: '20px', display: 'inline-block' }}>
-        <a style={{ fontWeight: 800, letterSpacing: 4 }}  href="https://insider.chenyifaer.com" target="_blank">
+        <a style={{ fontWeight: 800, letterSpacing: 4 }}  href="https://www.chenyifaer.com/join" target="_blank">
           JOIN INSIDER
         </a>
         <div style={{ marginTop: 6, height: 2.5, width: '100%', background: '#3e3e3d' }} />
