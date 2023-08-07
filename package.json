@@ -11,12 +11,12 @@
   "dependencies": {
     "@mdx-js/loader": "2.3.0",
     "@mdx-js/react": "2.3.0",
-    "@next/mdx": "13.4.12",
+    "@next/mdx": "13.4.13",
     "@react-three/drei": "9.71.0",
     "@react-three/fiber": "8.13.6",
     "@react-three/rapier": "1.0.1",
     "leva": "0.9.35",
-    "next": "13.4.12",
+    "next": "13.4.13",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1",
@@ -28,7 +28,7 @@
     "@types/react-dom": "18.2.7",
     "@types/three": "0.148.0",
     "eslint": "8.46.0",
-    "eslint-config-next": "13.4.12",
+    "eslint-config-next": "13.4.13",
     "typescript": "5.0.4"
   }
 }
