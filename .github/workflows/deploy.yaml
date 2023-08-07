@@ -25,4 +25,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.CYF_BOT_TOKEN }}
+          cname: fafa-runner.chenyifaer.com
           publish_dir: ./out
