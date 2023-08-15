@@ -1,4 +1,4 @@
-const withMDX = require('@next/mdx')({
+const withMDX = require("@next/mdx")({
   extension: /\.mdx?$/,
   options: {
     // If you use remark-gfm, you'll need to use next.config.mjs
@@ -13,10 +13,10 @@ const withMDX = require('@next/mdx')({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/fafa-runner',
-  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
-  output: 'export',
+  basePath: "/fafa-runner",
+  pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
+  output: "export",
   reactStrictMode: true,
-}
+};
 
 module.exports = withMDX(nextConfig);
