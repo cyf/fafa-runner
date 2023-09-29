@@ -142,7 +142,7 @@ function Pacman() {
   const ref = useRef();
   useFrame((state) => {
     const t = state.clock.getElapsedTime();
-    ref.current.setNextKinematicTranslation({
+    ref.current?.setNextKinematicTranslation({
       x: -5,
       y: -8 + Math.sin(t * 10) / 2,
       z: 0,
