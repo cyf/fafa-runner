@@ -60,27 +60,35 @@ export default async function Legal({
                   {/* Article meta */}
                   <div className="mb-6 flex items-center">
                     {post.authorImg && (
-                        <div className="mr-3 flex shrink-0">
-                          <a className="relative" href="https://www.kjxbyz.com/" target="_blank">
-                      <span
-                          className="absolute inset-0 -m-px"
-                          aria-hidden="true"
-                      >
-                        <span className="absolute inset-0 -m-px rounded-full bg-white"></span>
-                      </span>
-                            <Image
-                                className="relative rounded-full"
-                                src={post.authorImg}
-                                width={32}
-                                height={32}
-                                alt={post.author}
-                            />
-                          </a>
-                        </div>
+                      <div className="mr-3 flex shrink-0">
+                        <a
+                          className="relative"
+                          href="https://www.kjxbyz.com/"
+                          target="_blank"
+                        >
+                          <span
+                            className="absolute inset-0 -m-px"
+                            aria-hidden="true"
+                          >
+                            <span className="absolute inset-0 -m-px rounded-full bg-white"></span>
+                          </span>
+                          <Image
+                            className="relative rounded-full"
+                            src={post.authorImg}
+                            width={32}
+                            height={32}
+                            alt={post.author}
+                          />
+                        </a>
+                      </div>
                     )}
                     <div>
                       <span className="text-gray-600">By </span>
-                      <a className="font-medium hover:underline" href="#0">
+                      <a
+                        className="font-medium hover:underline"
+                        href="https://www.kjxbyz.com/"
+                        target="_blank"
+                      >
                         {post.author}
                       </a>
                       <span className="text-gray-600">

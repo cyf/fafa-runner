@@ -9,9 +9,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
     dangerouslyAllowSVG: true,
-    domains: [
-      "www.kjxbyz.com",
-    ],
+    domains: ["www.kjxbyz.com"],
   },
 };
 
