@@ -11,7 +11,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-three/drei": "9.86.0",
+    "@react-three/drei": "9.86.1",
     "@react-three/fiber": "8.14.3",
     "@react-three/rapier": "1.1.1",
     "contentlayer": "^0.3.4",
