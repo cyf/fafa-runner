@@ -62,15 +62,15 @@ function Overlay() {
           }}
         />
       </div>
-      {/*<div style={{ position: 'absolute', left: 40, bottom: 40, fontSize: '20px' }}>*/}
-      {/*  <div style={{ position: 'relative', marginTop: 10, display: 'inline-block' }}>*/}
-      {/*    <a style={{ fontSize: '20px', fontWeight: 800, letterSpacing: 4 }} href="https://chenyifaer.com/fafa-runner/play" target="_blank">*/}
-      {/*      PLAY*/}
-      {/*    </a>*/}
-      {/*    <div style={{ marginTop: 6, height: 2.5, width: '100%', background: '#3e3e3d' }} />*/}
-      {/*  </div>*/}
-      {/*  <br />*/}
-      {/*</div>*/}
+      <div style={{ position: 'absolute', left: 40, bottom: 40, fontSize: '20px' }}>
+        <div style={{ position: 'relative', marginTop: 10, display: 'inline-block' }}>
+          <a style={{ fontSize: '20px', fontWeight: 800, letterSpacing: 4 }} href="https://chenyifaer.com/fafa-runner/play" target="_blank">
+            PLAY
+          </a>
+          <div style={{ marginTop: 6, height: 2.5, width: '100%', background: '#3e3e3d' }} />
+        </div>
+        <br />
+      </div>
     </>
   );
 }
