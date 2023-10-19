@@ -94,7 +94,7 @@ export default function Home({
         <div className="flex items-center justify-center">
           <div className="grid w-full grid-cols-1 gap-5 md:max-w-3xl md:grid-cols-2">
             <Link
-              href="https://www.chenyifaer.com/jojn"
+              href="https://www.chenyifaer.com/join"
               target="_blank"
               className="flex items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-5 py-2 text-sm text-gray-600 shadow-md transition-colors hover:border-gray-800 hover:enabled:border-gray-800 disabled:cursor-not-allowed dark:bg-black dark:text-white/80 max-md:mx-10"
               rel="noopener noreferrer"
