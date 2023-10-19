@@ -25,7 +25,7 @@ export default function PostNav() {
     <aside className="relative mr-20 hidden w-64 shrink-0 lg:block">
       {links.length > 0 && (
         <div className="sticky top-28">
-          <h4 className="mb-4 text-lg font-bold leading-snug tracking-tight">
+          <h4 className="mb-4 text-lg font-bold leading-snug tracking-tight dark:text-gray-200">
             Table of contents
           </h4>
           <ul className="-my-1 font-medium">
@@ -33,11 +33,11 @@ export default function PostNav() {
               <li key={linkIndex} className="py-1.5">
                 <a
                   data-scrollspy-link
-                  className="flex items-center hover:underline"
+                  className="flex items-center hover:underline dark:text-gray-200"
                   href={`#${link.id}`}
                 >
                   <svg
-                    className="mr-3 h-4 w-4 shrink-0 fill-current text-gray-600"
+                    className="mr-3 h-4 w-4 shrink-0 fill-current text-gray-600 dark:text-gray-200"
                     viewBox="0 0 16 16"
                     xmlns="http://www.w3.org/2000/svg"
                   >
