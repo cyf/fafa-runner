@@ -30,7 +30,6 @@ export async function generateMetadata({
       params.lng === "en" ? "FaFa Runner" : "发发跑酷"
     } - 童话镇里一枝花, 人美歌甜陈一发.`,
     metadataBase: new URL("https://chenyifaer.com"),
-    themeColor: "#FFF",
     icons: {
       icon: "/fafa-runner/logo.jpg",
     },
