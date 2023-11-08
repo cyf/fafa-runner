@@ -1,5 +1,7 @@
 ## FaFa Runner
 
+[![CodeFactor](https://www.codefactor.io/repository/github/cyf/fafa-runner/badge)](https://www.codefactor.io/repository/github/cyf/fafa-runner)
+
 ## Setup
 
 Make sure to install the dependencies:
