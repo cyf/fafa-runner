@@ -19,7 +19,7 @@ yarn install
 
 ## Development Server
 
-Start the development server on `http://localhost:3000/fafa-runner/`:
+Start the development server on `http://localhost:3000`:
 
 ```bash
 # npm
@@ -33,6 +33,8 @@ yarn dev
 ```
 
 ## Production
+
+The production server runs at [https://chenyifaer.com/fafa-runner](https://chenyifaer.com/fafa-runner)
 
 Build the application for production:
 
