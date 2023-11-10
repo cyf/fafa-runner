@@ -2,21 +2,16 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { MdLiveTv } from "react-icons/md";
-import { BiTestTube } from "react-icons/bi";
-import { IoGameControllerOutline } from "react-icons/io5";
 import useScroll from "@/lib/hooks/use-scroll";
 import LngDropdown from "./lng-dropdown";
 import ThemeDropdown from "./theme-dropdown";
 import { LngProps } from "@/i18next-lng";
 import { useTranslation } from "@/i18n/client";
-import { Github } from "@/components/shared/icons";
+import { basePath } from "@/constants";
 
 export default function Header(props: LngProps) {
   const { t } = useTranslation(props.lng, "header");
   const scrolled = useScroll(50);
-  const router = useRouter();
 
   // toggle menu
   const toggleMenu = () => {
@@ -38,7 +33,7 @@ export default function Header(props: LngProps) {
           className="flex items-center font-display text-2xl"
         >
           <Image
-            src="/fafa-runner/logo.jpg"
+            src={`${basePath}/logo.jpg`}
             alt="logo"
             width="30"
             height="30"
