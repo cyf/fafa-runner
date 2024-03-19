@@ -1,3 +1,3 @@
 ## FaFa Runner
 
-Moved to [https://github.com/cyf/fafa_runner](https://github.com/cyf/fafa_runner/tree/main/docs)
+Moved to [https://github.com/fafarunner/fafa-runner](https://github.com/fafarunner/fafa-runner)
